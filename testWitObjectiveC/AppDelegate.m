@@ -18,10 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [Wit sharedInstance].accessToken = @"O3BL75UNVDLG4E2VAFMJNO6SVKFGJJNB"; // replace xxx by your Wit.AI access token
+    [Wit sharedInstance].accessToken = @"Server access token #自分のものを入れてください"; // replace xxx by your Wit.AI access token
     //enabling detectSpeechStop will automatically stop listening the microphone when the user stop talking
     [Wit sharedInstance].detectSpeechStop = YES;
-    
+
     return YES;
 }
 
